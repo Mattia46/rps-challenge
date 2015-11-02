@@ -1,0 +1,19 @@
+<h1><%= @player1 %></h1>
+<h2>choose a guesture</h2>
+<form>
+
+     <div>
+       <input type="submit" value="rock" name="hand1" class="round button">
+       <input type="submit" value="paper" name="hand1" class="round button">
+       <input type="submit" value="scissor" name="hand1" class="round button">
+     </div>
+   </form>
+<h1><%= @player2 %></h1>
+<h2>choose a guesture</h2>
+<form action="/playing_multy" method="post">
+     <div>
+       <input type="submit" value="rock" name="hand2" class="round button">
+       <input type="submit" value="paper" name="hand2" class="round button">
+       <input type="submit" value="scissor" name="hand2" class="round button">
+     </div>
+   </form>

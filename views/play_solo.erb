@@ -1,0 +1,18 @@
+<h1><%= @player 1%></h1>
+<h2>choose a guesture</h2>
+<form action="/playing" method="post">
+     <div>
+       <input type="submit" value="rock" name="hand1" class="round button">
+       <input type="submit" value="paper" name="hand1" class="round button">
+       <input type="submit" value="scissor" name="hand1" class="round button">
+     </div>
+   </form>
+<h1><%= @player 2 %></h1>
+<h2>choose a guesture</h2>
+<form action="/playing" method="post">
+     <div>
+       <input type="submit" value="rock" name="hand2" class="round button">
+       <input type="submit" value="paper" name="hand2" class="round button">
+       <input type="submit" value="scissor" name="hand2" class="round button">
+     </div>
+   </form>

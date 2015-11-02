@@ -1,5 +1,6 @@
-<h1><%= "Welcome #{$player}" %></h1>
+<h1><%= "Welcome #{@player}" %></h1>
 
-<h2>Are you ready to play???</h2><form action="/play" method="get">
+<h2>Are you ready to play???</h2>
+<form action="/play_solo" method="get">
   <input type="submit" value="let's play">
 </form>

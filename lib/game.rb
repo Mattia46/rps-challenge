@@ -8,7 +8,8 @@ class Game
   RULES = {
     rock:    :paper,
     paper:   :scissor,
-    scissor: :rock
+    scissor: :rock,
+    # scissor: :spock,
     }
 
   def initialize(hand)

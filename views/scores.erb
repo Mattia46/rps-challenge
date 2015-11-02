@@ -1,5 +1,5 @@
-<h1><%= "#{@player} you #{@game.play}" %>
-<h2><%= "you chose #{@game.player.hand} and the computer chose #{@game.computer.hand}" %></h2>
+<h1><%= "#{@game.play}" %>
+<h2><%= "you chose #{@game.player1} and the computer chose #{@game.player2}" %></h2>
 
 <form action="/play_solo" method="get">
   <input type="Submit" value="new game"></form>

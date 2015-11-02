@@ -3,8 +3,10 @@ class Computer
 
   attr_reader :hand
 
+  HAND = [:rock,:paper, :scissor]
+  
   def initialize
-    @hand = [:rock,:paper, :scissor].sample
+    @hand = HAND.sample
   end
 
 end
